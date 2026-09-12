@@ -50,7 +50,7 @@ before and after a container recreate here.
 
 Upstream retags `latest` on every release — fourteen in the first fifty-one days
 — while migrations run forward on boot and rebuild tables. This image pins
-`0.0.14`, so a redeploy is a redeploy. It also repairs the root-owned Railway
+`0.0.19`, so a redeploy is a redeploy. It also repairs the root-owned Railway
 volume as root and then `setpriv`s down to the image's own `bun` user (uid 1000)
 before anything else runs, instead of running the whole CMS as root via
 `RAILWAY_RUN_UID=0`.

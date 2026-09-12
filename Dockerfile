@@ -5,7 +5,7 @@
 # forward on boot, and those migrations rebuild tables (`drop table data_rows`
 # in migrations-sqlite.ts). An unpinned redeploy is therefore an unrequested,
 # one-way upgrade of a 0.0.x app.
-FROM ghcr.io/corebunch/instatic:0.0.14
+FROM ghcr.io/corebunch/instatic:0.0.19
 
 USER root
 
