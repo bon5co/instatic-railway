@@ -1,5 +1,9 @@
 # instatic-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/instatic-cms-or-just-updated-ai-website-?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Instatic CMS template](https://railway.com/deploy/instatic-cms-or-just-updated-ai-website-?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 A Railway-tuned wrapper image around [Instatic](https://github.com/CoreBunch/Instatic),
 the self-hosted CMS with an integrated visual editor. It is the upstream image
 with four Railway-specific fixes baked in, published as
